@@ -13,8 +13,8 @@ class Pig extends BaseClass {
    else{
      World.remove(world, this.body);
      push();
-     this.Visiblity = this.Visiblity - 5;
-     tint(255,this.Visiblity);
+     this.Visiblity = this.Visibility - 5;
+     tint(255,this.Visibility);
      image(this.image, this.body.position.x, this.body.position.y, 50, 50);
      pop();
    }
