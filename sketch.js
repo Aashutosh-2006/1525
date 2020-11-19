@@ -79,7 +79,7 @@ text("score"+score,width-300,50);
     slingshot.display();  
 pig1.score();
 pig3.score();
-    
+    getBackgrimg(); 
 }
 
 function mouseDragged(){
